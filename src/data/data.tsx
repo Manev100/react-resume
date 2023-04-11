@@ -69,16 +69,15 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Dr. Marc Neveling.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Düsseldorf based <strong className="text-stone-100">Data Scientist</strong>, currently working
+        at <strong className="text-stone-100">Deloitte GmbH</strong> as a consultant for AI and Data Science.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
+        In my free time time, you can catch me in <strong className="text-stone-100">gym</strong>,
         plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
         <strong className="text-stone-100">Vancouver Island</strong>.
       </p>
@@ -108,12 +107,12 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
+    {label: 'Location', text: 'Düsseldorf, Germany', Icon: MapIcon},
+    {label: 'Age', text: '32', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'German', Icon: FlagIcon},
+    {label: 'Interests', text: 'Video games, Skiing, Gym', Icon: SparklesIcon},
+    {label: 'Study', text: 'Heinrich-Heine-Universität Düsseldorf', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Deloitte GmbH', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -125,16 +124,12 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
+        name: 'German',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
+        name: 'English',
+        level: 9,
       },
     ],
   },
